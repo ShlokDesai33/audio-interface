@@ -5,7 +5,7 @@ import { Index } from './routes';
 const root = document.getElementById('root');
 
 if (!root) {
-	throw new Error('Root element not found');
+	throw new Error('Root element does not exist');
 }
 
 createRoot(root).render(

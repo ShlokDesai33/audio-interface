@@ -1,3 +1,3 @@
 export const Index = () => {
-	return <></>;
+	return <>hi</>;
 };
